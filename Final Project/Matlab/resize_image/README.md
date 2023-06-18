@@ -1,1 +1,2 @@
-# Resize Image Test
+# Resize Image Test  
+Test the code for correctness.
