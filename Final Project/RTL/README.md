@@ -1,2 +1,2 @@
 # RTL  
-Hardware Implementation
+Implementing hardware using Verilog.
