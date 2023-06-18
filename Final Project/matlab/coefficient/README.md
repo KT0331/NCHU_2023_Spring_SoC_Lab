@@ -1,1 +1,1 @@
-# Coefficient transform
+# Coefficient conversion
