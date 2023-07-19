@@ -14,18 +14,18 @@ If you have any questions, please feel free to contact me at my email address: t
   
 ### 1.DWT Filter
 <p align="left">
-  <img src="Document_img/2D DWT Filter.png" width="500" />
+  <img src="Document_img/2D DWT Filter.png" width="300" />
 </p>
 
 <br/>
 <p align="left">
-  <img src="Document_img/2D_DWT_Filter_Formula.png" width="500" />
+  <img src="Document_img/2D_DWT_Filter_Formula.png" width="300" />
 </p>
 
 <br/>
 &emsp;&emsp;The image is passed through a low-pass filter (Eq1) and a high-pass filter (Eq2) respectively, and then down-sampled to compress the image data.  
 <p align="left">
-  <img src="Document_img/Symmetric extension scheme for boundary pixels.png" width="1000" />
+  <img src="Document_img/Symmetric extension scheme for boundary pixels.png" width="800" />
 </p>
 
 <br/>
