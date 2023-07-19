@@ -53,7 +53,8 @@ Copyright @ K.T. Tu
 ### 1. System  
 <p align="center">
   <img src="Document_img/System Architecture.png" width="600" />
-</p> </br>
+</p>
+
 &emsp;&emsp;a.&emsp;Hardware design, which includes DWT, quantization, difference calculation, and Huffman coding.  
 &emsp;&emsp;b.&emsp;Communication protocol, which involves AXI4-Stream and AXI4-Lite.  
 &emsp;&emsp;c.&emsp;Software design, which includes reading/writing data from an SD card.
