@@ -52,7 +52,7 @@ Copyright @ K.T. Tu
 ## Architecture  
 ### 1. System  
 <p align="center">
-  <img src="Document_img/System Architecture.png" width="600" />
+  <img src="Document_img/System Architecture.png" width="500" />
 </p>
 
 &emsp;&emsp;a.&emsp;Hardware design, which includes DWT, quantization, difference calculation, and Huffman coding.  
@@ -60,10 +60,10 @@ Copyright @ K.T. Tu
 &emsp;&emsp;c.&emsp;Software design, which includes reading/writing data from an SD card.  
 ### 2. Encoder Architecture  
 <p align="center">
-  <img src="Document_img/Encoder Architecture.png" width="600" />
+  <img src="Document_img/Encoder Architecture.png" width="500" />
 </p>  
 
 ### 3. Design Module  
 <p align="center">
-  <img src="Document_img/Design Module.png" width="600" />
+  <img src="Document_img/Design Module.png" width="500" />
 </p>  
