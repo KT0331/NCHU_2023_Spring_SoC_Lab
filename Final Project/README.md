@@ -51,6 +51,6 @@ Copyright @ K.T. Tu
 &emsp;&emsp;The pre-analysis reveals that the frequencies of data occurrences are mostly the same, so we predefine the format of Huffman coding to reduce complexity and speed up the computational speed of the architecture.  
 ## Architecture  
 ### 1. System  
-&emsp;&emsp;a. Hardware design, which includes DWT, quantization, difference calculation, and Huffman coding.  
-&emsp;&emsp;b. Communication protocol, which involves AXI4-Stream and AXI4-Lite.  
-&emsp;&emsp;c. Software design, which includes reading/writing data from an SD card.
+&emsp;&emsp;a.&emsp;Hardware design, which includes DWT, quantization, difference calculation, and Huffman coding.  
+&emsp;&emsp;b.&emsp;Communication protocol, which involves AXI4-Stream and AXI4-Lite.  
+&emsp;&emsp;c.&emsp;Software design, which includes reading/writing data from an SD card.
