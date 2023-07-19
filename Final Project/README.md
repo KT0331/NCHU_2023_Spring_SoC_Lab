@@ -67,3 +67,15 @@ Copyright @ K.T. Tu
 <p align="center">
   <img src="Document_img/Design Module.png" width="500" />
 </p>  
+
+## Module Interface Description  
+### 1. Hardware System  
+<p align="center">
+  <img src="Document_img/a.png" width="500" />
+</p>  
+
+### 2. Hardware Core  
+<p align="center">
+  <img src="Document_img/image_compression.png" width="500" />
+</p>  
+
