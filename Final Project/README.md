@@ -19,7 +19,7 @@ If you have any questions, please feel free to contact me at my email address: t
 
 <br/>
 <p align="left">
-  <img src="Document_img/2D DWT Filter Formula.png" width="200" />
+  <img src="Document_img/2D DWT Filter Formula.png" width="500" />
 </p>
 
 <br/>
