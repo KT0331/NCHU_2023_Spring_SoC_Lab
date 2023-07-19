@@ -32,13 +32,13 @@ Copyright @ K.T. Tu
 </p>
 
 &emsp;&emsp;In this operation, we will quantize the data by discarding some bits to achieve data compression.  
-### 3.Difference  
+### 3.Difference Operation  
 <p align="center">
   <img src="Document_img/Difference.png" width="250" />
 </p>
 
 &emsp;&emsp;In this operation, we first divide the data processed in the previous steps into four regions: LL, HH, LH, and HL. Then, for each region, we subtract each column of data from its left column and record the difference. This step aims to concentrate the frequency of data occurrence.  
-### 4.Data compression  
+### 4.Data Compression  
 <p align="center">
   <img src="Document_img/Huffman codes.png" width="300" />
 </p>
@@ -48,4 +48,9 @@ Copyright @ K.T. Tu
 </p>
 
 &emsp;&emsp;In this operation, we first divide the data of each pixel into groups of 4 bits and apply Huffman coding to each group individually. As a result, the number of data after this layer will be M times the original. However, due to Huffman coding, the total number of output bits will be fewer than the input.  
-&emsp;&emsp;The pre-analysis reveals that the frequencies of data occurrences are mostly the same, so we predefine the format of Huffman coding to reduce complexity and speed up the computational speed of the architecture.
+&emsp;&emsp;The pre-analysis reveals that the frequencies of data occurrences are mostly the same, so we predefine the format of Huffman coding to reduce complexity and speed up the computational speed of the architecture.  
+## Architecture  
+### 1.System  
+&emsp;&emsp;a.Hardware design, which includes DWT, quantization, difference calculation, and Huffman coding.  
+&emsp;&emsp;b.Communication protocol, which involves AXI4-Stream and AXI4-Lite.  
+&emsp;&emsp;c.Software design, which includes reading/writing data from an SD card.
