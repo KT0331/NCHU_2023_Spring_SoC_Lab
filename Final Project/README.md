@@ -19,10 +19,10 @@ If you have any questions, please feel free to contact me at my email address: t
 </p>
 
 <br/>
-    將圖像分別通過低頻濾波器(Eq1.)及高頻濾波器(Eq2.)後再進行downsampling以壓縮圖像資料。  
+**將圖像分別通過低頻濾波器(Eq1.)及高頻濾波器(Eq2.)後再進行downsampling以壓縮圖像資料。  
 <p align="left">
   <img src="Document_img/Symmetric extension scheme for boundary pixels.png" width="1000" />
 </p>
 
 <br/>
-  在圖像邊緣利用對稱拓展的方式處理，由於拓展時，僅用到圖像邊界 的資料，因此不會增加過多資料量。同時由於拓展後的圖像在圖像邊界處是連續的，因此該方法有利於消除邊界效應。
+**在圖像邊緣利用對稱拓展的方式處理，由於拓展時，僅用到圖像邊界 的資料，因此不會增加過多資料量。同時由於拓展後的圖像在圖像邊界處是連續的，因此該方法有利於消除邊界效應。
