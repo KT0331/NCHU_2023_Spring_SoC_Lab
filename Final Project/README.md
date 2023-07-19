@@ -33,7 +33,7 @@ If you have any questions, please feel free to contact me at my email address: t
   
 ### 2.Dead-Zone Scalar Quantization  
 <p align="left">
-  <img src="Document_img/Dead-Zone Scalar Quantization.png" width="500" />
+  <img src="Document_img/Dead-Zone Scalar Quantization.png" width="300" />
 </p>
 
 <br/>
