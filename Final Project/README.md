@@ -40,19 +40,19 @@ If you have any questions, please feel free to contact me at my email address: t
 &emsp;&emsp;In this operation, we will quantize the data by discarding some bits to achieve data compression.  
 ### 3.Difference  
 <p align="left">
-  <img src="Document_img/Difference.png" width="500" />
+  <img src="Document_img/Difference.png" width="250" />
 </p>
 
 <br/>
 &emsp;&emsp;In this operation, we first divide the data processed in the previous steps into four regions: LL, HH, LH, and HL. Then, for each region, we subtract each column of data from its left column and record the difference. This step aims to concentrate the frequency of data occurrence.  
 ### 4.Data compression  
 <p align="left">
-  <img src="Document_img/Huffman codes.png" width="500" />
+  <img src="Document_img/Huffman codes.png" width="300" />
 </p>
 
 <br/>
 <p align="left">
-  <img src="Document_img/Huffman Tree.png" width="500" />
+  <img src="Document_img/Huffman Tree.png" width="300" />
 </p>
 
 <br/>
