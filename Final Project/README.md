@@ -21,7 +21,7 @@ If you have any questions, please feel free to contact me at my email address: t
 <br/>
     將圖像分別通過低頻濾波器(Eq1.)及高頻濾波器(Eq2.)後再進行downsampling以壓縮圖像資料。  
 <p align="left">
-  <img src="Document_img/Symmetric extension scheme for boundary pixels.png" width="500" />
+  <img src="Document_img/Symmetric extension scheme for boundary pixels.png" width="1000" />
 </p>
 
 <br/>
