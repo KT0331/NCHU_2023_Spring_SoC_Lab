@@ -29,4 +29,13 @@ If you have any questions, please feel free to contact me at my email address: t
 </p>
 
 <br/>
-&emsp;&emsp;The processing of utilizing symmetric extension at the image edges is performed. Due to the utilization of only the data from the image boundaries during the extension, it does not significantly increase the amount of data. Moreover, since the extended image becomes continuous at the image edges, this method is advantageous for reducing boundary effects.
+&emsp;&emsp;The processing of utilizing symmetric extension at the image edges is performed. Due to the utilization of only the data from the image boundaries during the extension, it does not significantly increase the amount of data. Moreover, since the extended image becomes continuous at the image edges, this method is advantageous for reducing boundary effects.  
+  
+### 2.Dead-Zone Scalar Quantization  
+<p align="left">
+  <img src="Document_img/Dead-Zone Scalar Quantization.png" width="500" />
+</p>
+
+<br/>
+&emsp;&emsp;In this layer, we will quantize the data by discarding some bits to achieve data compression.
+
