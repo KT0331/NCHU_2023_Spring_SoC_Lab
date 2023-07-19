@@ -11,7 +11,6 @@ Copyright @ K.T. Tu
 &emsp;&emsp;In this project, we utilized Zedboard for the hardware implementation of the encoder and then developed the decoder using MATLAB.  
   
 ## Principle  
-  
 ### 1.DWT Filter
 <p align="center">
   <img src="Document_img/2D DWT Filter.png" width="400" />
