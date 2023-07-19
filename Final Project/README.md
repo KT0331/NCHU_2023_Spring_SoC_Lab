@@ -19,10 +19,10 @@ If you have any questions, please feel free to contact me at my email address: t
 </p>
 
 <br/>
-將圖像分別通過低頻濾波器(Eq1.)及高頻濾波器(Eq2.)後再進行downsampling以壓縮圖像資料。  
+The image is passed through a low-pass filter (Eq1) and a high-pass filter (Eq2) respectively, and then down-sampled to compress the image data.  
 <p align="left">
   <img src="Document_img/Symmetric extension scheme for boundary pixels.png" width="1000" />
 </p>
 
 <br/>
-在圖像邊緣利用對稱拓展的方式處理，由於拓展時，僅用到圖像邊界 的資料，因此不會增加過多資料量。同時由於拓展後的圖像在圖像邊界處是連續的，因此該方法有利於消除邊界效應。
+The processing of utilizing symmetric extension at the image edges is performed. Due to the utilization of only the data from the image boundaries during the extension, it does not significantly increase the amount of data. Moreover, since the extended image becomes continuous at the image edges, this method is advantageous for reducing boundary effects.
