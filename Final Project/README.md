@@ -33,7 +33,7 @@ Copyright @ K.T. Tu
 </p>
 
 &emsp;&emsp;The processing of utilizing symmetric extension at the image edges is performed. Due to the utilization of only the data from the image boundaries during the extension, it does not significantly increase the amount of data. Moreover, since the extended image becomes continuous at the image edges, this method is advantageous for reducing boundary effects.  
-### 2. Dead-Zone Scalar Quantization  
+### 2. Quantization (Dead-Zone Scalar Quantization)  
 <p align="center">
   <img src="Document_img/Dead-Zone Scalar Quantization.png" width="300" />
 </p>
@@ -45,7 +45,7 @@ Copyright @ K.T. Tu
 </p>
 
 &emsp;&emsp;In this operation, we first divide the data processed in the previous steps into four regions: LL, HH, LH, and HL. Then, for each region, we subtract each column of data from its left column and record the difference. This step aims to concentrate the frequency of data occurrence.  
-### 4. Data Compression  
+### 4. Data Compression (Huffman Coding)  
 <p align="center">
   <img src="Document_img/Huffman codes.png" width="300" />
 </p>
