@@ -147,20 +147,11 @@ Copyright @ K.T. Tu
 
 ## Acknowledgment  
 ```
-A、	NCHU EE Undergraduate: 
-&emsp;&emsp;a.	Chun-Wei Su
-B、	NCHU EE MSPIC Lab. (611B):
-&emsp;&emsp;a.	Kun-Yung Chang
-C、	NCHU EE ICs & Systems Lab. (612):
-&emsp;&emsp;a.	Hung-Jui Chang
-&emsp;&emsp;b.	Mo-Hsuan Hsiung
-&emsp;&emsp;c.	Shun-Liang Yeh
-&emsp;&emsp;d.	Chun-Yuan Hsiao
-D、	NCHU EE Lab. 716:
-&emsp;&emsp;a.	Hsing-Yao Wang
-&emsp;&emsp;b.	Hsuan-Yu Lin
-E、	NCHU EE VSIP-IC Lab. (908):
-&emsp;&emsp;a.	Wen-Chia Yang
+A、	NCHU EE Undergraduate: Chun-Wei Su
+B、	NCHU EE MSPIC Lab. (611B): Kun-Yung Chang
+C、	NCHU EE ICs & Systems Lab. (612): Hung-Jui Chang, Mo-Hsuan Hsiung, Shun-Liang Yeh and Chun-Yuan Hsiao
+D、	NCHU EE Lab. 716: Hsing-Yao Wang and Hsuan-Yu Lin
+E、	NCHU EE VSIP-IC Lab. (908): Wen-Chia Yang
 ```  
 
 ## Reference  
