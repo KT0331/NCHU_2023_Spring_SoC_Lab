@@ -104,7 +104,7 @@ Copyright @ K.T. Tu
   <img src="Document_img/image_compression.png" width="500" />
 </p>  
 
-- compression Module
+- Compression Module
   
 | Signal Name | I/O | Width |  Simple Description |  
 |    :----:   | :----: | :----: |      :----      |  
