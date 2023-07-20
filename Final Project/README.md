@@ -84,7 +84,7 @@ Copyright @ K.T. Tu
 
 - DWT_control Module Inputs/Outputs Signals
   
-| Signal Name | I/O | Width |  Simple Description |  
+| Signal Name<nr> | I/O | Width |  Simple Description |  
 |    :----:   | :----: | :----: |      :----      |  
 |dwt_pixel    |O|10|輸出經過DWT運算後的值 |  
 |oaddr        |O|16|表明輸出訊號(dwt_pixel)的值要儲存的記憶體位置|  
