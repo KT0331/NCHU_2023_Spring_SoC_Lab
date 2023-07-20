@@ -20,7 +20,8 @@ Copyright @ K.T. Tu
 ## Principle  
 ### 1. DWT Filter
 <p align="center">
-  <img src="Document_img/2D DWT Filter.png" width="400" />
+  <img src="Document_img/2D DWT Filter.png" width="400" />  
+  <em>Fig. 1 2D DWT Filter</em>
 </p>
 
 <p align="center">
@@ -29,8 +30,7 @@ Copyright @ K.T. Tu
 
 &emsp;&emsp;The image is passed through a low-pass filter (Eq1) and a high-pass filter (Eq2) respectively, and then down-sampled to compress the image data.  
 <p align="center">
-  <img src="Document_img/Symmetric extension scheme for boundary pixels.png" width="700" />  
-  <figcaption>MDN Logo</figcaption>
+  <img src="Document_img/Symmetric extension scheme for boundary pixels.png" width="700" />
 </p>
 
 &emsp;&emsp;The processing of utilizing symmetric extension at the image edges is performed. Due to the utilization of only the data from the image boundaries during the extension, it does not significantly increase the amount of data. Moreover, since the extended image becomes continuous at the image edges, this method is advantageous for reducing boundary effects.  
