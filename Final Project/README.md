@@ -27,7 +27,7 @@ Copyright @ K.T. Tu
   <img src="Document_img/2D_DWT_Filter_Formula.png" width="400" />
 </p>
 
-$$s_{j} (n) = \sum_{k=0}^{L} s_{j-1} (k)g(2n-k) \tag{Eq.1}$$
+$$s_{j} (n) = \sum_{k=0}^{L} s_{j-1} (k)g(2n-k) \tag{Eq.&nbsp;1}$$  
 &emsp;&emsp;The image is passed through a low-pass filter (Eq1) and a high-pass filter (Eq2) respectively, and then down-sampled to compress the image data.  
 <p align="center">
   <img src="Document_img/Symmetric extension scheme for boundary pixels.png" width="700" />
