@@ -83,7 +83,7 @@ Copyright @ K.T. Tu
 </p>  
 
 | Signal Name | I/O | Width |  Simple Description |  
-|    :----:   | :----: | :----: |        :----:       |  
+|    :----:   | :----: | :----: |      :----      |  
 |dwt_pixel    |O|10|輸出經過DWT運算後的值 |  
 |h_or_g       |O| 1|表明輸出的值是經過哪種filter，經過h filter則輸出0，經過g filter則輸出1|  
 |clk          |I| 1|系統時脈訊號，本系統為同步於時脈正緣之同步設計|  
