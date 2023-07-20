@@ -23,7 +23,7 @@ Copyright @ K.T. Tu
   <img src="Document_img/2D DWT Filter.png" width="400" />
 </p>
 
-$s_{j} (n) = \sum_{k=0}^{L} s_{j-1} (k)g(2n-k) \tag{Eq.1}$  
+$$s_{j} (n) = \sum_{k=0}^{L} s_{j-1} (k)g(2n-k) \tag{Eq.1}$$  
 $$s_{j} (n) = \sum_{k=0}^{L} s_{j-1} (k)h(2n-k) \tag{Eq.2}$$  
 &emsp;&emsp;The image is passed through a low-pass filter (Eq.1) and a high-pass filter (Eq.2) respectively, and then down-sampled to compress the image data.  
 <p align="center">
