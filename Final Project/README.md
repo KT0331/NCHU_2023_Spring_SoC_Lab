@@ -78,4 +78,7 @@ Copyright @ K.T. Tu
 <p align="center">
   <img src="Document_img/image_compression.png" width="500" />
 </p>  
+<p align="center">
+  <img src="Document_img/DWT_control.png" width="500" />
+</p>  
 
