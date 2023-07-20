@@ -121,7 +121,6 @@ Copyright @ K.T. Tu
 |idata        |I|10|輸入資料訊號，MSB為資料的signed bit|  
 - blk_mem_gen_0 Module  
 
-透過Vivado呼叫之IP，詳情請參閱blk_mem_gen_0.veo  
 | Signal Name | I/O | Width |  Simple Description |  
 |    :----:   | :----: | :----: |      :----      |  
 |clka         |I| 1|input wire clka|  
@@ -131,6 +130,7 @@ Copyright @ K.T. Tu
 |clkb         |I| 1|input wire clkb|  
 |addrb        |I|18|input wire [17 : 0] addrb read addr|  
 |doutb        |O|10|output wire [9 : 0] doutb|  
+透過Vivado呼叫之IP，詳情請參閱blk_mem_gen_0.veo  
 - image_compression Module
   
 | Signal Name | I/O | Width |  Simple Description |  
