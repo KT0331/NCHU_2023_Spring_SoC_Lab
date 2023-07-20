@@ -101,7 +101,7 @@ Copyright @ K.T. Tu
 |idata        |I|10|輸入灰階圖像像素資料訊號，MSB為資料的signed bit|  
 
 <p align="center">
-  <img src="Document_img/image_compression.png" width="500" />
+  <img src="Document_img/Image_compression.png" width="500" />
 </p>  
 
 - Compression Module
