@@ -144,3 +144,15 @@ Copyright @ K.T. Tu
 <p align="center">
   <img src="Document_img/a.png" width="500" />
 </p>  
+
+## Reference  
+```
+[1] 	Po-Wei Liu, “The Implementation of Image Compression JPEG2000,” M.S. thesis, Dept. Elect. Eng., DYU, Changhua, Taiwan, 2014.
+[2] 	M.Puttaraju, and Dr.A.R.Aswatha “FPGA Implementation of 5/3 Integer DWT for Image Compression” International Journal of Advanced Computer Science and Applications, Vol. 3, No. 10, 2012
+[3] 	G. K. Khan and A. G. Sawant, "Spartan 6 FPGA implementation of 2D-discrete wavelet transform in Verilog HDL," 2016 IEEE International Conference on Advances in Electronics, Communication and Computer Technology (ICAECCT), 2016, pp. 139-143, doi: 10.1109/ICAECCT.2016.7942570
+[4] 	Hardware Design of the Discrete Wavelet Transform: an Analysis of Complexity, Accuracy and Operating Frequency Dora M. Ballesteros L. 1, Diego Renza 2 and Luis Fernando Pedraza 3 Received: 28-04-2016 | Accepted: 21-10-2016 | Online: 18-11-2016 PACS: 84.40.Ua; 07.50.Qx doi:10.17230/ingciencia.12.24.6
+[5] 	https://www.cnblogs.com/chengqi521/p/6732999.html
+[6] 	https://www.cnblogs.com/amxiang/p/16543664.html
+[7] 	https://zhuanlan.zhihu.com/p/608277782
+[8] 	https://blog.csdn.net/weixin_38071135/article/details/118581250
+```
