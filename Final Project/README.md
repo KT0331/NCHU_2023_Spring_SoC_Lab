@@ -81,7 +81,7 @@ Copyright @ K.T. Tu
   <img src="Document_img/Image_compression.png" width="500" />
 </p>  
 
-- DWT Module Inputs/Outputs Signals
+<center> Table 1 DWT Module Inputs/Outputs Signals </center> 
   
 | Signal Name | I/O | Width |  Simple Description |  
 |    :----:   | :----: | :----: |      :----      |  
