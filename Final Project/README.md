@@ -71,7 +71,7 @@ Copyright @ K.T. Tu
 ## Module Interface Description  
 ### 1. Hardware Core   
 <p align="center">
-  <img src="Document_img/DWT_control.png" width="500" />
+  <img src="Document_img/Image_compression.png" width="500" />
 </p>  
 
 - DWT Module Inputs/Outputs Signals
@@ -99,11 +99,6 @@ Copyright @ K.T. Tu
 |rst          |I| 1|低位準”非”同步(active low asynchronous)之系統重置信號|  
 |ready        |I| 1|高位準表明輸入的值為有效的|  
 |idata        |I|10|輸入灰階圖像像素資料訊號，MSB為資料的signed bit|  
-
-<p align="center">
-  <img src="Document_img/Image_compression.png" width="500" />
-</p>  
-
 - Compression Module
   
 | Signal Name | I/O | Width |  Simple Description |  
