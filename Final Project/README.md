@@ -20,8 +20,7 @@ Copyright @ K.T. Tu
 ## Principle  
 ### 1. DWT Filter
 <p align="center">
-  <img src="Document_img/2D DWT Filter.png" width="400" /> <br/>
-  <em>Fig. 1 2D DWT Filter</em>
+  <img src="Document_img/2D DWT Filter.png" width="400" />
 </p>
 
 <p align="center">
