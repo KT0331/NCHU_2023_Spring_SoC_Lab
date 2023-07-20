@@ -63,9 +63,9 @@ Copyright @ K.T. Tu
   <img src="Document_img/Encoder Architecture.png" width="500" />
 </p>  
 
-### 3. Design Module  
+### 3. RTL Design Module  
 <p align="center">
-  <img src="Document_img/Design Module.png" width="500" />
+  <img src="Document_img/RTL Module.png" width="500" />
 </p>  
 
 ## Module Interface Description  
