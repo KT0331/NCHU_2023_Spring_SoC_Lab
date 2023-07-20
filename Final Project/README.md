@@ -78,7 +78,7 @@ Copyright @ K.T. Tu
 ## Module Interface Description  
 ### 1. Hardware Core   
 <p align="center">
-  <img src="Document_img/hardware_core_interface.png" width="500" />
+  <img src="Document_img/Hardware_core_interface.png" width="500" />
 </p>  
 
 - DWT Module Inputs/Outputs Signals
