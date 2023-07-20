@@ -92,7 +92,7 @@ Copyright @ K.T. Tu
 |dwt_pixel    |O|10|輸出經過DWT運算後的值 |  
 |oaddr        |O|16|表明輸出訊號(dwt_pixel)的值要儲存的記憶體位置|  
 |o_valid      |O| 1|高位準表明輸出訊號(dwt_pixel)的值有效|
-|iaddr        |O|16|輸入灰階圖像位址訊號。指示欲索取哪個灰階圖像像素(pixel)資料的位址|  
+|iaddr        |O|16|輸入灰階圖像位址訊號，指示欲索取哪個灰階圖像像素(pixel)資料的位址|  
 |mode         |O| 1|表明目前DWT operation是進行甚麼方向的運算，低位準表示進行row processing(horizental)，高位準表示進行column processing(vertical)|  
 |end_flag     |O| 1|高位準表明DWT運算結束，可進入下一層運算|  
 |clk          |I| 1|系統時脈訊號，本系統為同步於時脈正緣之同步設計|  
@@ -104,6 +104,19 @@ Copyright @ K.T. Tu
   <img src="Document_img/image_compression.png" width="500" />
 </p>  
 
+- compression Module
+  
+| Signal Name | I/O | Width |  Simple Description |  
+|    :----:   | :----: | :----: |      :----      |  
+|odata        |O|15|輸出資料經過壓縮後的值 |  
+|iaddr        |O|16|輸入經過DWT運算後資料的位址訊號。指示欲索取資料的位址|  
+|o_valid      |O| 1|高位準表明輸出訊號(odata)的值有效|  
+|end_flag     |O| 1|高位準表明compress運算結束|  
+|clk          |I| 1|系統時脈訊號，本系統為同步於時脈正緣之同步設計|  
+|rst          |I| 1|低位準”非”同步(active low asynchronous)之系統重置信號|  
+|ready        |I| 1|高位準表明輸入的值為有效的|  
+|out_stop     |I| 1|高位準表明電路暫停運作，所有訊號維持|  
+|idata        |I|10|輸入資料訊號，MSB為資料的signed bit|  
 
 ### 2. Hardware System  
 <p align="center">
