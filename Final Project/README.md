@@ -110,11 +110,26 @@ Copyright @ K.T. Tu
 |clk          |I| 1|系統時脈訊號，本系統為同步於時脈正緣之同步設計|  
 |rst          |I| 1|低位準”非”同步(active low asynchronous)之系統重置信號|  
 |ready        |I| 1|高位準表明輸入的值為有效的|  
-|out_stop     |I| 1|高位準表明電路暫停運作，所有訊號維持|  
+|out_stop     |I| 1|高位準表明電路輸出需要暫停|  
 |idata        |I|10|輸入資料訊號，MSB為資料的signed bit|  
 - blk_mem_gen_0 Module  
 
-透過Vivado呼叫之IP，詳情請參考blk_mem_gen_0.veo
+透過Vivado呼叫之IP，詳情請參考blk_mem_gen_0.veo  
+- image_compression Module
+  
+| Signal Name | I/O | Width |  Simple Description |  
+|    :----:   | :----: | :----: |      :----      |  
+|odata        |O|15|輸出資料經過壓縮後的值 |  
+|in_valid     |O| 1|高位準表明要求索取資料|  
+|o_valid      |O| 1|高位準表明輸出訊號(odata)的值有效|  
+|end_flag     |O| 1|高位準表明image_compress結束|  
+|now_state    |O| 3|將想要觀察的訊號送出，始PS端可透過AXI4-Lite觀察PL端狀態|  
+|clk          |I| 1|系統時脈訊號，本系統為同步於時脈正緣之同步設計|  
+|rst          |I| 1|低位準”非”同步(active low asynchronous)之系統重置信號|  
+|start        |I| 1|高位準PS端要求PL端進入工作狀態|  
+|axis_enable  |I| 1|高位準PS端透過AXI4-Stream送入PL端的狀態為有效的|  
+|out_stop     |I| 1|高位準表明電路輸出需要暫停|  
+|s_axis_data  |I| 8|輸入灰階圖像像素資料訊號，為8bits的無號數|  
 
 ### 2. Hardware System  
 <p align="center">
