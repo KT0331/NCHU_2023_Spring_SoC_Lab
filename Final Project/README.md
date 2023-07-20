@@ -99,7 +99,7 @@ Copyright @ K.T. Tu
 |rst          |I| 1|低位準”非”同步(active low asynchronous)之系統重置信號|  
 |ready        |I| 1|高位準表明輸入的值為有效的|  
 |idata        |I|10|輸入灰階圖像像素資料訊號，MSB為資料的signed bit|  
-- Compression Module
+- compression Module
   
 | Signal Name | I/O | Width |  Simple Description |  
 |    :----:   | :----: | :----: |      :----      |  
@@ -112,7 +112,7 @@ Copyright @ K.T. Tu
 |ready        |I| 1|高位準表明輸入的值為有效的|  
 |out_stop     |I| 1|高位準表明電路暫停運作，所有訊號維持|  
 |idata        |I|10|輸入資料訊號，MSB為資料的signed bit|  
-- blk_mem_gen_0
+- blk_mem_gen_0 Module  
 
 透過Vivado呼叫之IP，詳情請參考blk_mem_gen_0.veo
 
