@@ -69,15 +69,7 @@ Copyright @ K.T. Tu
 </p>  
 
 ## Module Interface Description  
-### 1. Hardware System  
-<p align="center">
-  <img src="Document_img/a.png" width="500" />
-</p>  
-
-### 2. Hardware Core  
-<p align="center">
-  <img src="Document_img/image_compression.png" width="500" />
-</p>  
+### 1. Hardware Core   
 <p align="center">
   <img src="Document_img/DWT_control.png" width="500" />
 </p>  
@@ -107,3 +99,11 @@ Copyright @ K.T. Tu
 |ready        |I| 1|高位準表明輸入的值為有效的|  
 |idata        |I|10|輸入灰階圖像像素資料訊號，MSB為資料的signed bit|  
 |sp           |I| 4|表明當前硬體的工作時序|  
+<p align="center">
+  <img src="Document_img/image_compression.png" width="500" />
+</p>  
+
+### 2. Hardware System  
+<p align="center">
+  <img src="Document_img/a.png" width="500" />
+</p>  
