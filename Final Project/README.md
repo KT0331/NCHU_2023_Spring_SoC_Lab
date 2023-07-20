@@ -82,3 +82,12 @@ Copyright @ K.T. Tu
   <img src="Document_img/DWT_control.png" width="500" />
 </p>  
 
+| Signal Name | I/O | Width |  Simple Description |  
+|    :----:   | :----: | :----: |        :----:       |  
+|dwt_pixel    |O|10|輸出經過DWT運算後的值 |  
+|h_or_g       |O| 1|表明輸出的值是經過哪種filter，經過h filter則輸出0，經過g filter則輸出1|  
+|clk          |I| 1|系統時脈訊號，本系統為同步於時脈正緣之同步設計|  
+|rst          |I| 1|低位準”非”同步(active low asynchronous)之系統重置信號|  
+|ready        |I| 1|高位準表明輸入的值為有效的|  
+|idata        |I|10|輸入灰階圖像像素資料訊號，MSB為資料的signed bit|  
+|sp           |I| 4|表明當前硬體的工作時序|  
