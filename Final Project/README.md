@@ -145,6 +145,24 @@ Copyright @ K.T. Tu
   <img src="Document_img/a.png" width="500" />
 </p>  
 
+## Acknowledgment  
+```
+A、	NCHU EE Undergraduate: 
+&emsp;&emsp;a.	Chun-Wei Su
+B、	NCHU EE MSPIC Lab. (611B):
+&emsp;&emsp;a.	Kun-Yung Chang
+C、	NCHU EE ICs & Systems Lab. (612):
+&emsp;&emsp;a.	Hung-Jui Chang
+&emsp;&emsp;b.	Mo-Hsuan Hsiung
+&emsp;&emsp;c.	Shun-Liang Yeh
+&emsp;&emsp;d.	Chun-Yuan Hsiao
+D、	NCHU EE Lab. 716:
+&emsp;&emsp;a.	Hsing-Yao Wang
+&emsp;&emsp;b.	Hsuan-Yu Lin
+E、	NCHU EE VSIP-IC Lab. (908):
+&emsp;&emsp;a.	Wen-Chia Yang
+```  
+
 ## Reference  
 ```
 [1] 	Po-Wei Liu, “The Implementation of Image Compression JPEG2000,” M.S. thesis, Dept. Elect. Eng., DYU, Changhua, Taiwan, 2014.
