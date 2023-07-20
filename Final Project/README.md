@@ -82,6 +82,7 @@ Copyright @ K.T. Tu
   <img src="Document_img/DWT_control.png" width="500" />
 </p>  
 
+- DWT Module Inputs/Outputs Signals
 | Signal Name | I/O | Width |  Simple Description |  
 |    :----:   | :----: | :----: |      :----      |  
 |dwt_pixel    |O|10|輸出經過DWT運算後的值 |  
