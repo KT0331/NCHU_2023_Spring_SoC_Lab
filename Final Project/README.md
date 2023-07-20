@@ -131,7 +131,7 @@ Copyright @ K.T. Tu
 |addrb        |I|18|input wire [17 : 0] addrb read addr|  
 |doutb        |O|10|output wire [9 : 0] doutb|  
 
-blk_mem_gen_0 module透過Vivado呼叫之IP，詳情請參閱blk_mem_gen_0.veo  
+[Hint: blk_mem_gen_0 module透過Vivado呼叫之IP，詳情請參閱blk_mem_gen_0.veo]
 - image_compression Module
   
 | Signal Name | I/O | Width |  Simple Description |  
