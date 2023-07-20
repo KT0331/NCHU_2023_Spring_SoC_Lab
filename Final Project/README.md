@@ -115,6 +115,15 @@ Copyright @ K.T. Tu
 - blk_mem_gen_0 Module  
 
 透過Vivado呼叫之IP，詳情請參考blk_mem_gen_0.veo  
+| Signal Name | I/O | Width |  Simple Description |  
+|    :----:   | :----: | :----: |      :----      |  
+|clka         |I| 1|input wire clka|  
+|wea          |I| 1|input wire [0 : 0] wea write enable|  
+|addra        |I|18|input wire [17 : 0] addra write addr|  
+|dina         |I|10|input wire [9 : 0] dina|  
+|clkb         |I| 1|input wire clkb|  
+|addrb        |I|18|input wire [17 : 0] addrb read addr|  
+|doutb        |O|10|output wire [9 : 0] doutb|  
 - image_compression Module
   
 | Signal Name | I/O | Width |  Simple Description |  
