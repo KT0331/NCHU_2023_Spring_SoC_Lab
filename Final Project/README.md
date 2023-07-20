@@ -114,7 +114,7 @@ Copyright @ K.T. Tu
 |idata        |I|10|輸入資料訊號，MSB為資料的signed bit|  
 - blk_mem_gen_0 Module  
 
-透過Vivado呼叫之IP，詳情請參考blk_mem_gen_0.veo  
+透過Vivado呼叫之IP，詳情請參閱blk_mem_gen_0.veo  
 | Signal Name | I/O | Width |  Simple Description |  
 |    :----:   | :----: | :----: |      :----      |  
 |clka         |I| 1|input wire clka|  
