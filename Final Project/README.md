@@ -83,8 +83,8 @@ Copyright @ K.T. Tu
 
 - DWT Module Inputs/Outputs Signals
   
-| Signal Name | I/O | Width |  Simple Description |  
-|    :----:   | :----: | :----: |      :----      |  
+|Signal Name|I/O|Width|Simple Description|  
+|  :----:   |:----:|:----:|:----| 
 |dwt_pixel    |O|10|輸出經過DWT運算後的值 |  
 |h_or_g       |O| 1|表明輸出的值是經過哪種filter，經過h filter則輸出0，經過g filter則輸出1|  
 |clk          |I| 1|系統時脈訊號，本系統為同步於時脈正緣之同步設計|  
@@ -94,8 +94,8 @@ Copyright @ K.T. Tu
 |sp           |I| 4|表明當前硬體的工作時序|  
 - DWT_control Module Inputs/Outputs Signals
   
-| Signal Name | I/O | Width |  Simple Description |  
-|    :----:   | :----: | :----: |      :----      |  
+|Signal Name|I/O|Width|Simple Description|  
+|  :----:   |:----:|:----:|:----|  
 |dwt_pixel    |O|10|輸出經過DWT運算後的值 |  
 |oaddr        |O|16|表明輸出訊號(dwt_pixel)的值要儲存的記憶體位置|  
 |o_valid      |O| 1|高位準表明輸出訊號(dwt_pixel)的值有效|
@@ -108,8 +108,8 @@ Copyright @ K.T. Tu
 |idata        |I|10|輸入灰階圖像像素資料訊號，MSB為資料的signed bit|  
 - compression Module
   
-| Signal Name | I/O | Width |  Simple Description |  
-|    :----:   | :----: | :----: |      :----      |  
+|Signal Name|I/O|Width|Simple Description|  
+|  :----:   |:----:|:----:|:----| 
 |odata        |O|15|輸出資料經過壓縮後的值 |  
 |iaddr        |O|16|輸入經過DWT運算後資料的位址訊號。指示欲索取資料的位址|  
 |o_valid      |O| 1|高位準表明輸出訊號(odata)的值有效|  
@@ -121,8 +121,8 @@ Copyright @ K.T. Tu
 |idata        |I|10|輸入資料訊號，MSB為資料的signed bit|  
 - blk_mem_gen_0 Module  
 
-| Signal Name | I/O | Width |  Simple Description |  
-|    :----:   | :----: | :----: |      :----      |  
+|Signal Name|I/O|Width|Simple Description|  
+|  :----:   |:----:|:----:|:----|  
 |clka         |I| 1|input wire clka|  
 |wea          |I| 1|input wire [0 : 0] wea write enable|  
 |addra        |I|18|input wire [17 : 0] addra write addr|  
@@ -134,8 +134,8 @@ Copyright @ K.T. Tu
 [Hint: blk_mem_gen_0 module透過Vivado呼叫之IP，詳情請參閱blk_mem_gen_0.veo]
 - image_compression Module
   
-| Signal Name | I/O | Width |  Simple Description |  
-|    :----:   | :----: | :----: |      :----      |  
+|Signal Name|I/O|Width|Simple Description|  
+|  :----:   |:----:|:----:|:----|  
 |odata        |O|15|輸出資料經過壓縮後的值 |  
 |in_valid     |O| 1|高位準表明要求索取資料|  
 |o_valid      |O| 1|高位準表明輸出訊號(odata)的值有效|  
