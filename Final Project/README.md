@@ -71,7 +71,7 @@ $$s_{j} (n) = \sum_{k=0}^{L} s_{j-1} (k)h(2n-k) \tag{Eq.2}$$
 
 ### 3. RTL Design Module  
 <p align="center">
-  <img src="Document_img/RTL Design Module.png" width="500" />
+  <img src="Document_img/RTL Module.png" width="500" />
 </p>  
 
 ## Module Interface Description  
