@@ -16,7 +16,7 @@ If you have any questions, please feel free to contact me at my email address: t
 - [Reference](#Reference)
 ## Introduction  
 &emsp;&emsp;KT Gray Image Compression Architecture combines the specifications of both JPEG and JPEG2000 image compression. This method not only avoids some drawbacks of JPEG, such as mosaic distortion, but also retains several advantages of JPEG2000, such as real-time decoding. Compared to JPEG2000, it boasts lower computational complexity, and is also much more suitable for hardware implementation.  
-&emsp;&emsp;In this project, we utilized Zedboard for the hardware implementation of the encoder and then developed the decoder using MATLAB.  
+&emsp;&emsp;In this project, I utilized Zedboard for the hardware implementation of the encoder and then developed the decoder using MATLAB.  
   
 ## Principle  
 ### 1. DWT Filter
