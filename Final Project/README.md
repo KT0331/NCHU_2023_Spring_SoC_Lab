@@ -21,7 +21,7 @@ If you have any questions, please feel free to contact me at my email address: t
 ## Principle  
 ### 1. DWT Filter
 <p align="center">
-  <img src="Document_img/2D DWT Filter.png" width="400" />
+  <img src="Document_img/2D_DWT_Filter.png" width="400" />
 </p>
 
 $$s_{j} (n) = \sum_{k=0}^{L} s_{j-1} (k)g(2n-k) \tag{Eq.1}$$  
