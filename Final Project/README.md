@@ -1,5 +1,5 @@
 # **Final Project**  
-**Topic: KT Gray Image Compression Architecture**  
+Topic: KT Gray Image Compression Architecture  
   
 Copyright © 2023 K.T. Tu. All Rights Reserved.
   
